@@ -6,6 +6,8 @@
 # create project
 npx create-nuxt-app nuxt-app
 
+# install cypress
+npm install cypress -D
 
 # generate static project
 $ yarn generate
