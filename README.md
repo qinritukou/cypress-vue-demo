@@ -9,6 +9,9 @@ npx create-nuxt-app nuxt-app
 # install cypress
 npm install cypress -D
 
+# open cypress
+npx cypress open
+
 # generate static project
 $ yarn generate
 ```
