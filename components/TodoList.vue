@@ -1,7 +1,14 @@
 <template>
   <v-container data-cy="container">
     <v-row v-for="todo in todos" :key="todo.id">
-      <v-alert>{{ todo.title }}</v-alert>
+      <v-alert
+        data-cy="alert"
+        color="indigo"
+        border="bottom"
+        dark
+      >
+        {{ todo.title }}
+      </v-alert>
     </v-row>
   </v-container>
 </template>
