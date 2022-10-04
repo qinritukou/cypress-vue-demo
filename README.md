@@ -12,6 +12,9 @@ npm install cypress -D
 # open cypress
 npx cypress open
 
+# run cypress in command line 
+yarn run cypress run --browser chrome --headless --component
+
 # generate static project
 $ yarn generate
 ```

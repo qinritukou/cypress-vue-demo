@@ -20,6 +20,12 @@ import './commands'
 // require('./commands')
 
 import { mount } from 'cypress/vue2'
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(Vuetify);
+
 
 // Augment the Cypress namespace to include type definitions for
 // your custom command.

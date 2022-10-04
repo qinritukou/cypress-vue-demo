@@ -22,8 +22,8 @@ describe('<TodoList />', () => {
     // check
     cy.mount(TodoList)
     cy.wait('@getTodos')
-    cy.get('[data-cy="container"]').find('v-alert').should('have.length', 3)
-    cy.get('v-alert')
+    cy.get('[data-cy="container"]').find('[data-cy="alert"]').should('have.length', 3)
+    cy.get('[data-cy="alert"]')
       .should('contain.text', 'test1')
       .should('contain.text', 'test2')
       .should('contain.text', '日本語')
